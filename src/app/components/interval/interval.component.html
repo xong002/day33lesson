@@ -1,0 +1,13 @@
+<br /><br />
+<input type="text" class="form-control" name="name" [(ngModel)]="fullName"/>
+<p>My name is {{fullName}}.</p>
+<br /><br />
+<button class="btn btn-success" style="margin-left: 50%" (click)="startCount()">
+  Start
+</button>
+<br /><br />
+<button class="btn btn-danger" style="margin-left: 50%" (click)="stopCount()">
+  Stop
+</button>
+<br /><br />
+<h1 style="text-align: center">Count value is: {{ count }}</h1>
