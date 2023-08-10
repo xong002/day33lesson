@@ -6,13 +6,15 @@ import { IntervalComponent } from './components/interval/interval.component';
 import { FormsModule } from '@angular/forms';
 import { NgtemplateComponent } from './components/ngtemplate/ngtemplate.component';
 import { CardComponent } from './components/card/card.component';
+import { ElementsComponent } from './components/elements/elements.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntervalComponent,
     NgtemplateComponent,
-    CardComponent
+    CardComponent,
+    ElementsComponent
   ],
   imports: [
     BrowserModule,
